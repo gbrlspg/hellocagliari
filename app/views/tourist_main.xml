@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="tourist_main" class="container">
+		<ImageView image="/images/tourist_main.jpg" width="100%" height="100%">
+		</ImageView>
+		<View backgroundColor="#000" opacity="0.6">
+		</View>
+		<View width="120" height="120" top="5%" left="35%" borderRadius="100" opacity="0.5" backgroundColor="white">
+			<Label class="round_label" color="black">T</Label>	
+		</View>
+		
+		<WebView url="/carousel/carousel.html" top="60%"></WebView>
+	</Window>
+</Alloy>

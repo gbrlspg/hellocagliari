@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<ImageView image="/images/home.png" width="100%" height="100%">
+		</ImageView>
+		<View backgroundColor="#000" opacity="0.7">
+			<Label id="maxwellbold" color="white" top="5%" left="5%">hellocagliari!</Label>	
+		</View>
+		<View width="200" height="200" bottom="30%" borderRadius="200" opacity="0.5" backgroundColor="white" onClick="doTourist">
+			<Label id="maxwellbold2" color="black" onClick="doTourist">Go!</Label>	
+		</View>
+	</Window>
+</Alloy>

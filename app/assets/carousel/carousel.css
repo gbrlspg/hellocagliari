@@ -1,0 +1,78 @@
+.container{
+    background: #333333;
+}
+
+.carousel {
+	margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+
+.carousel-indicators .active {
+    background: #333333;
+}
+
+.hilight h2{
+    font-family: Helvetica, Verdana;
+    color: #FFF;
+    z-index: 200;
+    text-align:center;
+}
+
+
+.hilight h3{
+    font-family: Helvetica, Verdana;
+    color: #FFF;
+    z-index: 200;
+    text-align:center;
+}
+
+.hilight p{
+    font-family: Helvetica, Verdana;
+    color: #FFF;
+    z-index: 200;
+    text-align:center;
+}
+
+.promo {
+    /**position: relative;**/
+}
+.promo img {
+    z-index: 1;
+    height: 40%;
+    width: 100%;
+}
+
+.hilight {
+    background-color: #000;
+    /**position: relative;**/
+    height: 35%;
+    width: 100%;
+    opacity: 0.65;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #FFF;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.grp h2{
+    background-color: #000;
+    
+}

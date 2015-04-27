@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="monument" class="container">
+		<ImageView image="/images/torre.png" width="100%" height="100%">
+		</ImageView>
+		<View backgroundColor="#000" opacity="0.6">
+		</View>
+		<Label class="round_label" top="5%" color="white">Torre di San Pancrazio</Label>
+		<View width="120" height="120" top="5%" left="35%" borderRadius="100" opacity="0.5" backgroundColor="white">
+			<Label class="round_label" color="white">136 m</Label>
+			<Label class="round_label" color="#7BB756">T</Label>	
+		</View>
+		<Label id="orari" top="20%" left="5%" right="5%" class="round_label" color="white" > </Label>
+		<Label id="costi" top="30%" left="5%" right="5%" class="round_label" color="white" ></Label>
+		<TextArea id="desc" top="50%" left="5%" right="5%" class="round_label" color="white" editable="false" scrollsToTop="true"></TextArea>
+	</Window>
+</Alloy>

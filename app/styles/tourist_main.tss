@@ -1,0 +1,6 @@
+".round_label": { 
+ font: {
+      fontFamily: 'maxwellbold',
+      fontSize: 62
+  }
+}

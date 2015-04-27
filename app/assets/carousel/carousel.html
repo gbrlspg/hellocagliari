@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="carousel.css">
+		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+		<script src="src/js/jquery.bxslider.js"></script>
+<!-- bxSlider CSS file -->
+		<link href="dist/jquery.bxslider.css" rel="stylesheet" />
+	</head>
+<div class="container">
+<ul class="bxslider">
+    <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/castello.jpg"/>
+            <div class="hilight">                 
+                 <p>Santa Croce</p>
+                 <h3><b>136 </b>m</h3>
+                 <h2 style="color: #C42021">152</h2>
+            </div>
+        </div>
+      </li>
+     </div>
+     <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/bastione.jpg"/>
+            <div class="hilight">
+                 <p>Bastione Saint Remy</p>
+                 <h3><b>257 </b>m</h3>
+                 <h2 style="color: #7BB756">26</h2>
+            </div>
+        </div>
+      </li>
+     </div>
+     <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/bibliouniversita.jpg"/>
+            <div class="hilight">
+                 <p></p>
+                 <h3><b>339 </b>m</h3>
+                 <h2 style="color: #7BB756">15</h2>
+            </div>
+        </div>
+      </li>
+     </div>
+     <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/bonaria.jpg"/>
+            <div class="hilight">
+                 <p>Sample text</p>
+                 <h2>Hockey</h2>
+                 <h3>5</h3>
+            </div>
+        </div>
+      </li>
+     </div>
+     <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/comune.jpg"/>
+            <div class="hilight">
+                 <p>Sample text</p>
+                 <h2>Hockey</h2>
+                 <h3>5</h3>
+            </div>
+        </div>
+      </li>
+     </div>
+     <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/torrelefante.jpg"/>
+            <div class="hilight">
+                 <p>Sample text</p>
+                 <h2>Hockey</h2>
+                 <h3>5</h3>
+            </div>
+        </div>
+      </li>
+     </div>
+     <div class = "promo">
+      <li>
+        <div>
+            <img src="dist/images/villanova.jpg"/>
+            <div class="hilight">
+                 <p>Sample text</p>
+                 <h2>Hockey</h2>
+                 <h3>5</h3>
+            </div>
+        </div>
+      </li>
+     </div>
+</ul>
+</div>
+<script>
+$(document).ready(function(){
+	
+	$('.bxslider').bxSlider({
+		minSlides: 3,
+  		maxSlides: 4,
+  		slideWidth: 170,
+  		slideMargin: 10
+	});
+	$('.bxslider').click(function(){
+		console.log('we');
+		Ti.App.fireEvent('prova');	
+	});
+});
+</script>
+</html>

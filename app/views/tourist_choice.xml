@@ -1,0 +1,44 @@
+<Alloy>
+	<Window id="tourist_choice" class="container">
+		<ImageView image="/images/tourist_main.jpg" width="100%" height="100%">
+		</ImageView>
+		<View backgroundColor="#000" opacity="0.7">
+		</View>
+		<View width="120" height="120" top="5%" left="35%" borderRadius="100" opacity="0.5" backgroundColor="white">
+			<Label class="round_label" color="black">T</Label>	
+		</View>
+		
+		<View top="60%">
+			<Button title="Monumenti Aperti" top="0" backgroundColor="#BF4342" borderRadius="6" onClick="doMaperti">Monumenti Aperti</Button>
+			<Button title="Infopoint" top="25%" backgroundColor="#BF4342" borderRadius="6">InfoPoint</Button>
+			<Button title="Bike Sharing" top="50%" backgroundColor="#BF4342" borderRadius="6">Bike Sharing</Button>
+					
+		</View>
+		
+		
+		
+		<!--
+		<ScrollableView id="scrollableView" showPagingControl="true" top="50%"  width="50%" clipViews="true">
+        	<View id="view2" backgroundColor="#246" width="20dp" >
+            	<Label>View 2</Label>
+            </View>	
+            
+            <View id="view1" backgroundColor="#123" width="100dp" height="80%">
+               <Label>View 1</Label>
+            </View>
+            <View id="view2" backgroundColor="#246" width="100dp" >
+             <Label>View 2</Label>
+             </View>
+            <View id="view3" backgroundColor="#48b" width="100dp">
+             <Label>View 3</Label>
+             </View>
+             <View id="view4" backgroundColor="#bcd" width="100dp">
+             <Label>View 4</Label>
+             </View>
+             <View id="view5" backgroundColor="#def" width="100dp">
+             <Label>View 5</Label>
+             </View>
+        </ScrollableView>
+		-->
+	</Window>
+</Alloy>
